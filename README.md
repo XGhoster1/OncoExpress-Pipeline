@@ -24,12 +24,12 @@ To reproduce this analysis, ensure you have R 4.0+ and VS Code installed.
     2. 02_differential_expression.R
     3. 03_visualization.R
 
-## Tech Stack and Skills
-Skill Category,Tools and Concepts,Evidence in Project
-Data Engineering,"R, TCGAbiolinks","Automated curation of 1,224 GDC samples."
-Statistical Rigor,"DESeq2, FDR, Log2FC",Applied Benjamini-Hochberg correction for multiple testing.
-Visualization,"ggplot2, ggrepel",Publication-quality Volcano Plots with
-Software Architecture,"Modular Scripting, here",Reproducible workflow utilizing project anchoring and relative paths.
+| Skill Category | Tools & Concepts | Evidence in Project |
+|---|---|---|
+| Data Engineering | R, TCGAbiolinks | Automated curation of 1,224 GDC samples |
+| Statistical Rigor | DESeq2, FDR, Log2FC | Applied Benjamini-Hochberg correction for multiple testing |
+| Visualization | ggplot2, ggrepel | Publication-quality Volcano Plots with labeled top hits |
+| Software
 
 ## Key Biological Findings
 The analysis revealed a strong metastatic and proliferative signature:
