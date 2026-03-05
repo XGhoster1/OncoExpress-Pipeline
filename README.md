@@ -39,13 +39,15 @@ The analysis revealed a strong metastatic and proliferative signature:
     2. NEK2: A master regulator of mitosis, highlighting the high proliferation rate characteristic of this tumor cohort.
 
 ## Project Structure
+```
 OncoExpress-Pipeline/
 ├── scripts/
-│   ├── 01_data_download.R            # Data ingestion
+│   ├── 01_data_download.R       # Data ingestion
 │   ├── 02_differential_expression.R  # Statistical analysis
-│   └── 03_visualization.R            # Results and Plots
+│   └── 03_visualization.R       # Results and Plots
 ├── results/
-│   ├── plots/                        # Volcano_Plot_BRCA.png
-│   └── tables/                       # Top_Hits_Annotated.csv
-├── OncoExpress-Pipeline.Rproj        # Project anchor
-└── data/                             # GDC raw data (Git-ignored)
+│   ├── plots/                   # Volcano_Plot_BRCA.png
+│   └── tables/                  # Top_Hits_Annotated.csv
+├── OncoExpress-Pipeline.Rproj   # Project anchor
+└── data/                        # GDC raw data (Git-ignored)
+```
