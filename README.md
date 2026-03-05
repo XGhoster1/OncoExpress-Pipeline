@@ -12,7 +12,7 @@ To reproduce this analysis, ensure you have R 4.0+ and VS Code installed.
 
 1. **Clone the Repository**:
    ```bash
-   git clone [https://github.com/YourUsername/OncoExpress-Pipeline.git](https://github.com/YourUsername/OncoExpress-Pipeline.git)
+   git clone https://github.com/YourUsername/OncoExpress-Pipeline.git](https://github.com/YourUsername/OncoExpress-Pipeline.git)
    cd OncoExpress-Pipeline```
 
 2. **Initialize Environment**:
