@@ -13,12 +13,12 @@ To reproduce this analysis, ensure you have R 4.0+ and VS Code installed.
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/YourUsername/OncoExpress-Pipeline.git](https://github.com/YourUsername/OncoExpress-Pipeline.git)
-   cd OncoExpress-Pipeline```
+   cd OncoExpress-Pipeline
 
 2. **Initialize Environment**:
     ```Open project in VSCode, and install the following packages:
     install.packages(c("here", "ggplot2", "ggrepel", "BiocManager"))
-    BiocManager::install(c("TCGAbiolinks", "DESeq2", "SummarizedExperiment"))```
+    BiocManager::install(c("TCGAbiolinks", "DESeq2", "SummarizedExperiment"))
 3. **Run the pipeline**:
     1. 01_data_downlaod.R
     2. 02_differential_expression.R
